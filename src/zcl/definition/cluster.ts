@@ -3580,6 +3580,17 @@ const Cluster: {
             },
         },
     },
+    ettSprySchedule: {
+        ID: 0xFC19,
+        attributes: {
+            schedule: {ID: 0, type: DataType.octetStr},
+            intervals: {ID: 1, type: DataType.octetStr},
+            intensity: {ID: 2, type: DataType.uint16},
+            enabled: {ID: 3, type: DataType.uint8}
+        },
+        commands: {},
+        commandsResponse: {}
+    }
 };
 
 export default Cluster;
